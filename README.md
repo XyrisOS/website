@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+![Logo](https://github.com/panix-os/panix-os.github.io/blob/master/img/logo.png?raw=true)
+### Panix
+Panix is a small, hobbyist kernel started by [Keeton Feavel](https://github.com/Kfeavel) and further developed with the help of [Micah Switzer](https://github.com/micahswitzer).
+Having now undergone three rewrites from the ground up, Panix has come a long way since its first start in 2018.
 
-You can use the [editor on GitHub](https://github.com/panix-os/panix.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Design Philosophy
+Panix is designed to be readable first and foremost. Having been developed at [Cedarville University](https://cs.cedarville.edu), the primary goal of Panix is to provide an opportunity for students (and anyone else interested) to learn the intricacies of kernel development. Function names are descriptive and structs are used when possible in order to help increase the legibility of code and provide an "easy-in" for kernel development.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Accomplishments
+Panix is the subject of an independent study and the associated final report published by Keeton Feavel at Cedarville and used by Patrick Dudenhofer to help instruct students of CS-3320 (Operating Systems). The `cedarville` branch is an older, modified version of the Panix kernel used as a template for assignments designed to help introduce concepts such as CPU ports and hardware communication. Eventually, once paging is fully implemented, another assignment will be developed to help explain paging and memory management.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/panix-os/panix.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### How to Help
+We are constantly looking for people to help contribute to Panix. If you would like to contribute driver code or a new feature, feel free to fork the repository and submit a pull request. If you are a student who would like to get involved, feel free to contact any of the project contributors.
