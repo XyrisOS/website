@@ -1,3 +1,8 @@
+<section id="downloads" class="clearfix">
+  <a href="https://github.com/panix-os/Panix/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+  <a href="https://github.com/panix-os/Panix/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+</section>
+
 ![Logo](https://github.com/panix-os/panix-os.github.io/blob/master/img/logo.png?raw=true)
 ### Panix
 Panix is a small, hobbyist kernel started by [Keeton Feavel](https://github.com/Kfeavel) and further developed with the help of [Micah Switzer](https://github.com/micahswitzer).
