@@ -1,0 +1,78 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    font-family: "Roboto";
+  }
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    height: 5%;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+}
+
+a {
+    color: #962BFF;
+}
+
+a:hover {
+    color: #00B9FF;
+}
+
+/* Clearfix
+ * Adding a 'clearfix' class will allow parent elements to contain a floated child element
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
