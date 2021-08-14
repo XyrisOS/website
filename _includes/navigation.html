@@ -1,0 +1,9 @@
+<nav role="navigation">
+  <ul>
+    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    <li><a href="https://github.com/XyrisOS/xyris">Github</a></li>
+    <li><a href="/demo" {% if page.url == "/demo" %}class="active"{% endif %}>Demo</a></li>
+    <li><a href="/notes" {% if page.url == "/notes" %}class="active"{% endif %}>Notes</a></li>
+    <li><a href="/acknowledgements" {% if page.url == "/acknowledgements" %}class="active"{% endif %}>Acknowledgements</a></li>
+  </ul>
+</nav>
