@@ -23,15 +23,15 @@ window.onload = function () {
         screen_container: document.getElementById("screen_container"),
         bios:
         {
-            url: "https://github.com/XyrisOS/website/blob/main/bios/seabios.bin?raw=true",
+            url: "/bios/seabios.bin?raw=true",
         },
         vga_bios:
         {
-            url: "https://github.com/XyrisOS/website/blob/main//bios/vgabios.bin?raw=true",
+            url: "/bios/vgabios.bin?raw=true",
         },
         hda:
         {
-            url: "https://github.com/XyrisOS/website/blob/main/res/xyris.img?raw=true",
+            url: "/res/xyris.img?raw=true",
             async: true,
         },
         autostart: true,
