@@ -8,8 +8,8 @@ title: Home
 
 ## Xyris
 
-Xyris (previously Panix) is a small, hobbyist kernel started by [Keeton Feavel](https://github.com/Kfeavel) and further developed with the help of [Micah Switzer](https://github.com/micahswitzer).
-Having now undergone three rewrites from the ground up, Xyris has come a long way since its first start in 2018.
+Xyris is a small, hobbyist kernel started by [Keeton Feavel](https://github.com/Kfeavel) and further developed with the help of [Micah Switzer](https://github.com/micahswitzer).
+Having now undergone three rewrites from the ground up, Xyris has come a long way since its first start in 2018. The primary goal of Xyris is to become a microkernel focused on usability, security, and readability.
 
 ## Design Philosophy
 
