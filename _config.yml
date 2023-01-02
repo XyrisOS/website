@@ -16,7 +16,11 @@ sass:
 plugins:
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from 
 
 collections:
   pages:
